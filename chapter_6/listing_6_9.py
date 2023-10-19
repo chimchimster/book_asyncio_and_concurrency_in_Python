@@ -42,6 +42,6 @@ async def main(partition_size: int):
             end = time.time()
             print(f'MapReduce time: {(end-start):.4f} seconds.')
 
-
+listing
 if __name__ == '__main__':
     asyncio.run(main(partition_size=600000))
